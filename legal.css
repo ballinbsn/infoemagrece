@@ -1,0 +1,32 @@
+/* Estilos das páginas institucionais (Termos, Privacidade, Reembolso) */
+.legal {
+  padding-block: clamp(40px, 8vw, 72px);
+}
+.legal h1 {
+  font-size: clamp(1.7rem, 6vw, 2.4rem);
+  margin-bottom: 8px;
+}
+.legal h2 {
+  font-size: clamp(1.1rem, 3.4vw, 1.35rem);
+  margin: 30px 0 8px;
+}
+.legal p { color: var(--ink-soft); margin-bottom: 12px; }
+.legal a { color: var(--green-700); text-decoration: underline; }
+.legal__updated { font-size: .9rem; color: var(--ink-soft); margin-bottom: 24px; }
+.legal__note {
+  background: var(--beige-100);
+  border: 1px solid var(--beige-200);
+  border-radius: var(--radius-sm);
+  padding: 14px 16px;
+  font-size: .9rem;
+  color: var(--ink);
+  margin-bottom: 28px;
+}
+.legal hr {
+  border: 0;
+  border-top: 1px solid var(--line);
+  margin: 32px 0 16px;
+}
+.legal__company { font-size: .85rem; }
+.legal ul { list-style: disc; padding-left: 22px; color: var(--ink-soft); margin-bottom: 12px; }
+.legal li { margin-bottom: 6px; }
