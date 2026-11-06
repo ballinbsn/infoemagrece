@@ -18,7 +18,7 @@ const PRICE = "R$ 97,00";
 const ACCESS_TEXT = "Acesso conforme condições informadas no momento da compra.";
 
 /* Data de "última atualização" das páginas de Termos, Privacidade e Reembolso. */
-const LEGAL_UPDATED = "informe a data";
+const LEGAL_UPDATED = "6 de novembro de 2026";
 
 /* Dados da empresa / responsável — aparecem no rodapé e nas páginas legais. */
 const COMPANY = {
@@ -74,6 +74,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Dados da empresa
   document.querySelectorAll(".js-company-name").forEach((el) => { el.textContent = COMPANY.name; });
   document.querySelectorAll(".js-company-doc").forEach((el) => { el.textContent = COMPANY.doc; });
+  document.querySelectorAll(".js-company-address").forEach((el) => { el.textContent = COMPANY.address; });
   document.querySelectorAll(".js-contact-link").forEach((el) => {
     el.setAttribute("href", "mailto:" + COMPANY.email);
     if (!el.textContent.trim() || el.textContent.trim() === "Contato") {
