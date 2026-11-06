@@ -24,7 +24,7 @@ const LEGAL_UPDATED = "6 de novembro de 2026";
 const COMPANY = {
   name: "61.234.395 JHUAN LIMA GLORIA",
   doc: "CNPJ: 61.234.395/0001-81",
-  address: "Rua Manaus, 69 – Santa Efigênia, Belo Horizonte/MG – CEP 30150-350 – Tel.: (92) 8479-1040",
+  address: "Rua Manaus, 69 – Santa Efigênia, Belo Horizonte/MG – CEP 30150-350 – Tel.: (92) 98479-1040",
   email: "suporte28dias@outlook.com",
 };
 
