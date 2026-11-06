@@ -22,9 +22,9 @@ const LEGAL_UPDATED = "6 de novembro de 2026";
 
 /* Dados da empresa / responsável — aparecem no rodapé e nas páginas legais. */
 const COMPANY = {
-  name: "67.550.941 CLEBERSON COELHO LIMA",
-  doc: "CNPJ: 67.550.941/0001-70",
-  address: "Avenida Oscar Borel, 23 – Compensa, Manaus/AM – CEP 69035-210",
+  name: "61.234.395 JHUAN LIMA GLORIA",
+  doc: "CNPJ: 61.234.395/0001-81",
+  address: "Rua Manaus, 69 – Santa Efigênia, Belo Horizonte/MG – CEP 30150-350 – Tel.: (92) 8479-1040",
   email: "suporte28dias@outlook.com",
 };
 
