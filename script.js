@@ -22,8 +22,9 @@ const LEGAL_UPDATED = "6 de novembro de 2026";
 
 /* Dados da empresa / responsável — aparecem no rodapé e nas páginas legais. */
 const COMPANY = {
-  name: "Projeto 28 Dias Pro",
+  name: "67.550.941 CLEBERSON COELHO LIMA",
   doc: "CNPJ: 67.550.941/0001-70",
+  address: "Avenida Oscar Borel, 23 – Compensa, Manaus/AM – CEP 69035-210",
   email: "suporte28dias@outlook.com",
 };
 
